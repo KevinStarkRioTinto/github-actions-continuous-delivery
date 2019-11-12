@@ -55,7 +55,7 @@ jobs:
           path: public
 
       - name: Build, Tag, Push
-        uses: mattdavis0351/actions/docker-gpr@v1
+        uses: KevinStarkRioTinto/actions/docker-gpr@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           image-name: tic-tac-toe
